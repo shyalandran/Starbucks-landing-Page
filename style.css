@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 400;
+    color: #333;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .text-box {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .text-box h2 {
+    font-weight: 500;
+    color: #333;
+    font-size: 4em;
+    line-height: 1.5em;
+}
+
+.content .text-box h2 span {
+    color: #017143;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.content .text-box p {
+    color: #333;
+}
+
+.content .text-box a {
+    display: inline-block;
+    background-color: #017143;
+    padding: 8px 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 500;
+    border-radius: 40px;
+    letter-spacing: 1px;
+}
+
+.content .img-box {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.content .img-box img {
+    max-width: 340px;
+}
+
+.thumb {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li :hover {
+    transform: translateY(-15px);
+}
+
+.thumb li img {
+    max-width: 60px;
+}
+
+.sci {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translatey(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #017143;
+    clip-path: circle(600px at right 800px );
+}
+

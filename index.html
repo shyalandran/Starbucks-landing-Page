@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section>
+
+        <header>
+            <a href=""><img src="./assts/logo.png" alt="site logo" class="logo"></a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">What's New</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="circle"></div>
+        
+        <div class="content">
+            <div class="text-box">
+                <h2>It's not just coffee<br>It's <span>Starbucks</span></h2>
+                <p>
+                    The company places emphasis on ethical sourcing through supporting sustainable practices.
+                    Starbucks outlets also provide an inviting atmosphere for customers to enjoy their beverages and a variety of snacks.
+                </p>
+                <a href="/">Lean More</a>
+            </div>
+            <div class="img-box">
+                <img src="./assts/img1.png" alt="product img" class="Starbucks">
+            </div>
+        </div>
+        
+        <ul class="thumb">
+            <li><img src="./assts/thumb1.png" alt="products" onclick="imgSlider('./assts/img1.png'); circleColor('#017143')"></li>
+            <li><img src="./assts/thumb2.png" alt="products" onclick="imgSlider('./assts/img2.png'); circleColor('#eb7495')"></li>
+            <li><img src="./assts/thumb3.png" alt="products" onclick="imgSlider('./assts/img3.png'); circleColor('#d752b1')"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href=""><img src="./assts/facebook.png" alt="social media links"></a></li>
+            <li><a href=""><img src="./assts/instagram.png" alt="social media links"></a></li>
+            <li><a href=""><img src="./assts/twitter.png" alt="social media links"></a></li>
+        </ul>
+
+    </section>
+    
+<script src="./page.js"></script>
+</body>
+</html>
